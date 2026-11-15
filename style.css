@@ -58,3 +58,5 @@ footer .inner { padding-top: 18px; padding-bottom: 30px; }
   nav a { margin: 0 14px 0 0; }
   header.site .inner { height: auto; padding-top: 12px; padding-bottom: 12px; }
 }
+.card img.shot { width: 100%; border-radius: 8px; border: 1px solid var(--line); margin: 0 0 12px; display: block; }
+.card p.links { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: .92rem; }

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Projects – Tuğçe Müller</title>
-<meta name="description" content="Tuğçe Müller – researching generative AI in adult and lifelong learning. Incoming M.A. student in Adult Education at JMU Würzburg.">
+<title>Projects · Tuğçe Müller</title>
+<meta name="description" content="Projects by Tuğçe Müller: AI learning tools, Thinking Club, educational websites and instructional design work.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,40 +20,87 @@
 <main>
 
 <h1>Projects</h1>
-<p class="lead">Learning tools and courses I have designed and built.</p>
+<p class="lead">Things I have built and designed. Every project links to something you can open: the live site, the code or the project files.</p>
+
+<h2>Learning with AI</h2>
 
 <div class="card">
+  <img class="shot" src="img/thinkingclub-home.jpg" alt="Thinking Club home page showing this week's reading">
+  <h3>Thinking Club</h3>
+  <p class="meta">Web app · 2026 · ongoing</p>
+  <p><em>Let's read, learn and think together.</em> I built Thinking Club so my friends and I could read new things and think them through together. Every Sunday a new, carefully sourced reading arrives. During the week members read it, say where they stand, highlight what struck them and discuss it. Each week someone else picks the next topic.</p>
+  <p>I designed and built it myself, including how readings are written with AI and checked against real sources.</p>
+  <div class="tags"><span>Next.js</span><span>Supabase</span><span>Claude</span><span>Adult learning</span></div>
+  <p class="links"><a href="https://thethinkingclub.org">thethinkingclub.org</a> <span class="meta">(members only: visitors see the sign-in page)</span></p>
+</div>
+
+<div class="card">
+  <img class="shot" src="img/roadmap.jpg" alt="RoadmapGeneratorAI showing a generated three-week roadmap with sources">
   <h3>RoadmapGeneratorAI</h3>
-  <p class="meta">LLM-based personalized learning roadmap generator · METU CEIT490</p>
-  <p>Generates weekly, personalized study plans from uploaded course materials using retrieval-augmented generation.</p>
-  <div class="tags"><span>LangChain</span><span>Hugging Face</span><span>ChromaDB</span><span>Streamlit</span></div>
-  <p><a href="https://github.com/tugceunlu/RoadmapGeneratorAI">View on GitHub</a></p>
+  <p class="meta">Retrieval-augmented generation · METU CEIT 490, rebuilt in 2026</p>
+  <p>Turns a learner's own course materials into a week-by-week study plan. Every week is based on one passage from the learner's files and names its source, so the plan stays aligned with the course and can be checked. Runs locally with an open model, with no API key.</p>
+  <div class="tags"><span>Python</span><span>ChromaDB</span><span>flan-t5</span><span>Streamlit</span><span>pytest</span></div>
+  <p class="links"><a href="https://github.com/tugceunlu/RoadmapGeneratorAI">Code and documentation on GitHub</a></p>
 </div>
 
 <div class="card">
+  <h3>SuccessGuideAI</h3>
+  <p class="meta">Retrieval-augmented chat assistant · METU CEIT 490, rebuilt in 2026</p>
+  <p>A study and career advisor for students. It answers questions such as "How can I do well in this course?" from the student's own syllabi and notes, cites the passages it used, and says clearly when it can only give general advice.</p>
+  <div class="tags"><span>Python</span><span>LangChain</span><span>OpenAI</span><span>ChromaDB</span><span>Streamlit</span></div>
+  <p class="links"><a href="https://github.com/tugceunlu/SuccessGuide">Code and documentation on GitHub</a></p>
+</div>
+
+<h2>Websites</h2>
+
+<div class="card">
+  <img class="shot" src="img/nextstep.jpg" alt="NextStep CEIT home page">
   <h3>NextStepCEIT</h3>
-  <p class="meta">Student-centred educational guidance website · METU CEIT435–436</p>
-  <p>A website that helps CEIT students with course overviews, learning roadmaps and extra resources. I planned the project, collected and analyzed student feedback, and improved the site based on it.</p>
-  <p><a href="https://nextstepceit.com">nextstepceit.com</a></p>
-</div>
-
-<div class="card">
-  <h3>Online Occupational Health and Safety course</h3>
-  <p class="meta">Moodle distance-education course · METU CEIT321</p>
-  <p>A 15-week online course with objectives, weekly structure, learning materials, assessments and activities, built on distance-education design principles.</p>
-</div>
-
-<div class="card">
-  <h3>Interactive teacher-training course</h3>
-  <p class="meta">Articulate Storyline · METU CEIT225</p>
-  <p>An interactive course teaching teacher candidates how to use ActivePresenter, developed with learner and needs analysis, formative evaluation and usability testing.</p>
+  <p class="meta">Student guidance website · METU CEIT 435 &amp; 436 · team project with Elif Çetin and Tuana Bayazıt</p>
+  <p>A website by students, for students: course guides, learning roadmaps for each year and resources at beginner, intermediate and advanced level for students of Computer Education and Instructional Technology. We planned it with a project proposal and timeline, collected feedback from students and improved the site based on it.</p>
+  <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Project management</span></div>
+  <p class="links"><a href="https://tugceunlu.github.io/NextStepCEIT-WebsiteForCEITStudents/">Live site</a> · <a href="https://github.com/tugceunlu/NextStepCEIT-WebsiteForCEITStudents">Code</a> · <a href="https://drive.google.com/drive/folders/1avhPHVj9hT_GsqkYdHMQ0rjhXXd-3kXV">Project reports</a></p>
 </div>
 
 <div class="card">
   <h3>METU Personnel Department website</h3>
-  <p class="meta">Drupal · 2025–2026</p>
-  <p>Developed and structured the department's official website (pdb.metu.edu.tr) and published the digital Academic International Handbook.</p>
+  <p class="meta">Drupal · Student staff, 2025 to 2026 · supervised by Dr. Berkan Başoğlu, Lecturer and Quality Management Representative</p>
+  <p>I developed and structured the department's official website, including sections for academic, administrative and international staff, students, forms and announcements, and published the digital Handbook for International Academic Staff. I worked with the department's IT unit on maintenance and updates.</p>
+  <div class="tags"><span>Drupal</span><span>Content management</span><span>Documentation</span></div>
+  <p class="links"><a href="https://pdb.metu.edu.tr">pdb.metu.edu.tr</a> · <a href="https://pdb.metu.edu.tr/tr/handbook-international-academic-staff">Handbook for International Academic Staff</a></p>
 </div>
+
+<h2>Instructional design</h2>
+<p>Course projects from my degree. Each link opens the project files: design and evaluation reports, materials and recordings.</p>
+
+<div class="card">
+  <h3>Online Occupational Health and Safety course</h3>
+  <p class="meta">Moodle · METU CEIT 321 Foundations of Distance Education · group project</p>
+  <p>A 15-week online course with objectives, syllabus, weekly structure, materials, assessments and activities, designed on distance-education principles.</p>
+  <p class="links"><a href="https://drive.google.com/drive/folders/1auIL_jvBP4kEeO8bHRP_F3fBrGpiyi6O">Proposal, syllabus, final report and course walkthrough video</a></p>
+</div>
+
+<div class="card">
+  <h3>Interactive teacher-training course</h3>
+  <p class="meta">Articulate Storyline · METU CEIT 225 Instructional Design</p>
+  <p>An interactive course that teaches teacher candidates to use ActivePresenter, developed with the ADDIE model: needs and learner analysis, design, usability testing, expert review and revision.</p>
+  <p class="links"><a href="https://drive.google.com/drive/folders/1r0lCWx28lI86NU7y-sWqol4s3ANOX8Rp">Design report, evaluation report and showcase poster</a></p>
+</div>
+
+<div class="card">
+  <h3>Multimedia learning projects</h3>
+  <p class="meta">Articulate Storyline, video · METU CEIT 323 Multimedia Design and Development</p>
+  <p>A procedural lesson (video, handout and QR quiz), a conceptual course on active digital citizenship with role-play and quizzes, and a gamified Storyline project, all revised after expert and peer evaluation.</p>
+  <p class="links"><a href="https://drive.google.com/drive/folders/1s4HPrG4vdjukQbEMn5J3-pKvljgXIfIH">Final reports and the Storyline game</a></p>
+</div>
+
+<div class="card">
+  <h3>Lesson and unit planning</h3>
+  <p class="meta">METU CEIT 216 Principles and Methods of Instruction · CEIT 207 Design and Use of Instructional Material</p>
+  <p>Three 80-minute lessons for a 6th-grade ICT course based on the national curriculum, and a PyGame instructional unit for high-school students with video and print materials.</p>
+  <p class="links"><a href="https://drive.google.com/drive/folders/1qVzBhrUijATs3gTriJrIkW9k4XUIzDv7">Lesson and unit plans</a> · <a href="https://drive.google.com/drive/folders/1-1Be9w1LawFWXEzdhQgqKNDwReA_K-BM">Instructional materials and analysis report</a></p>
+</div>
+
 </main>
 <footer><div class="inner">© 2026 Tuğçe Müller · <a class="em" data-u="tugce.unlu02" data-d="gmail.com" data-show="1" href="#">tugce.unlu02 [at] gmail.com</a> · <a href="https://www.linkedin.com/in/tugceunlu2023">LinkedIn</a> · <a href="https://github.com/tugceunlu">GitHub</a></div></footer>
 <script src="email.js"></script>
