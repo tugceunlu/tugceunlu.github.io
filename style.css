@@ -48,8 +48,7 @@ nav a[aria-current="page"] { color: var(--teal); background: var(--teal-tint); f
 main { padding-top: 56px; padding-bottom: 72px; }
 h1, h2, h3 { font-family: var(--serif); line-height: 1.2; letter-spacing: -.01em; }
 h1 { font-size: 2.6rem; font-weight: 600; margin: 0 0 12px; }
-h2 { font-size: 1.45rem; font-weight: 600; margin: 52px 0 14px; display: flex; align-items: center; gap: 10px; }
-h2::before { content: ""; width: 18px; height: 3px; border-radius: 3px; background: var(--rose); }
+h2 { font-size: 1.45rem; font-weight: 600; margin: 52px 0 14px; }
 h3 { font-size: 1.12rem; font-weight: 600; margin: 0 0 4px; }
 .lead { font-size: 1.18rem; color: var(--muted); margin: 0 0 22px; }
 p { margin: 0 0 16px; }
@@ -66,11 +65,10 @@ p { margin: 0 0 16px; }
 .btn.primary:hover { background: var(--rose); border-color: var(--rose); color: #fff; }
 
 /* facts */
-.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 8px 0 8px; }
+.facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 8px 0 8px; }
 .fact { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; box-shadow: var(--shadow); }
-.fact b { display: block; font: 600 1.6rem var(--serif); color: var(--rose); line-height: 1.1; }
-.fact:nth-child(2) b { color: var(--teal); }
-.fact:nth-child(3) b { color: var(--gold); }
+.fact b { display: block; font: 600 1.6rem var(--serif); color: var(--teal); line-height: 1.1; }
+.fact:nth-child(2) b { color: var(--rose); }
 .fact span { font-size: .85rem; color: var(--muted); }
 
 /* cards */
